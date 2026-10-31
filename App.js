@@ -1,35 +1,43 @@
-
-
+import React, { useEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { useFonts } from 'expo-font';
+import * as SplashScreen from 'expo-splash-screen';
+import AppNavigator from './src/navigation/AppNavigator';
+import { AuthProvider } from './src/context/AuthContext';
+import { MusicProvider } from './src/context/MusicContext';
+import { SessionProvider } from './src/context/SessionContext'; // <-- NUEVO
+
+SplashScreen.preventAutoHideAsync();
 
 export default function App() {
+  const [loaded, error] = useFonts({
+    'Inter-Regular': require('./src/assets/fonts/Inter-Regular.ttf'),
+    'Inter-Bold': require('./src/assets/fonts/Inter-Bold.ttf'),
+    'Inter-Black': require('./src/assets/fonts/Inter-Black.ttf'),
+  });
+
+  useEffect(() => {
+    if (loaded || error) {
+      SplashScreen.hideAsync();
+    }
+  }, [loaded, error]);
+
+  if (!loaded && !error) {
+    return null;
+  }
+
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>GAMELOG</Text>
-      <Text style={styles.subtitle}>Trackea. Analiza. Mejora.</Text>
-      <StatusBar style="light" />
-    </View>
+    <SafeAreaProvider>
+      <AuthProvider>
+        <MusicProvider>
+          {/* ENVOLVEMOS CON SESSION PROVIDER */}
+          <SessionProvider>
+            <StatusBar style="dark" />
+            <AppNavigator />
+          </SessionProvider>
+        </MusicProvider>
+      </AuthProvider>
+    </SafeAreaProvider>
   );
 }
-
-// Estilos centralizados en un objeto StyleSheet para mantener el JSX limpio
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#0D1117',
-    alignItems: 'center',
-    justifyContent: 'center',
-    padding: 20,
-  },
-  title: {
-    fontSize: 32,
-    fontWeight: 'bold',
-    color: '#FFFFFF',
-    marginBottom: 8,
-  },
-  subtitle: {
-    fontSize: 16,
-    color: '#8B949E',
-  },
-});

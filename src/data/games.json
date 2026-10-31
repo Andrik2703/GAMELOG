@@ -1,0 +1,112 @@
+[
+  {
+    "id": 540,
+    "title": "Overwatch",
+    "thumbnail": "https://www.freetogame.com/g/540/thumbnail.jpg",
+    "short_description": "A hero-focused first-person team shooter from Blizzard Entertainment.",
+    "genre": "Shooter",
+    "platform": "PC (Windows)",
+    "publisher": "Activision Blizzard",
+    "developer": "Blizzard Entertainment",
+    "release_date": "2022-10-04"
+  },
+  {
+    "id": 516,
+    "title": "PUBG: BATTLEGROUNDS",
+    "thumbnail": "https://www.freetogame.com/g/516/thumbnail.jpg",
+    "short_description": "Get into the action in one of the longest running battle royale games PUBG Battlegrounds.",
+    "genre": "Shooter",
+    "platform": "PC (Windows)",
+    "publisher": "KRAFTON, Inc.",
+    "developer": "KRAFTON, Inc.",
+    "release_date": "2022-01-12"
+  },
+  {
+    "id": 475,
+    "title": "Genshin Impact",
+    "thumbnail": "https://www.freetogame.com/g/475/thumbnail.jpg",
+    "short_description": "If you’ve been looking for a game to scratch that open-world action RPG itch.",
+    "genre": "Action RPG",
+    "platform": "PC (Windows)",
+    "publisher": "miHoYo",
+    "developer": "miHoYo",
+    "release_date": "2020-09-28"
+  },
+  {
+    "id": 521,
+    "title": "Diablo Immortal",
+    "thumbnail": "https://www.freetogame.com/g/521/thumbnail.jpg",
+    "short_description": "Built for mobile and also released on PC.",
+    "genre": "MMOARPG",
+    "platform": "PC (Windows)",
+    "publisher": "Blizzard Entertainment",
+    "developer": "Blizzard Entertainment",
+    "release_date": "2022-06-02"
+  },
+  {
+    "id": 466,
+    "title": "Valorant",
+    "thumbnail": "https://www.freetogame.com/g/466/thumbnail.jpg",
+    "short_description": "Test your mettle in Riot Games’ character-based FPS shooter Valorant.",
+    "genre": "Shooter",
+    "platform": "PC (Windows)",
+    "publisher": "Riot Games",
+    "developer": "Riot Games",
+    "release_date": "2020-06-02"
+  },
+  {
+    "id": 517,
+    "title": "Lost Ark",
+    "thumbnail": "https://www.freetogame.com/g/517/thumbnail.jpg",
+    "short_description": "Smilegate’s free-to-play multiplayer ARPG is a massive adventure.",
+    "genre": "ARPG",
+    "platform": "PC (Windows)",
+    "publisher": "Amazon Games",
+    "developer": "Smilegate RPG",
+    "release_date": "2022-02-11"
+  },
+  {
+    "id": 452,
+    "title": "Call of Duty: Warzone",
+    "thumbnail": "https://www.freetogame.com/g/452/thumbnail.jpg",
+    "short_description": "A standalone free-to-play battle royale and modes accessible via Call of Duty: Modern Warfare.",
+    "genre": "Shooter",
+    "platform": "PC (Windows)",
+    "publisher": "Activision",
+    "developer": "Infinity Ward",
+    "release_date": "2020-03-10"
+  },
+  {
+    "id": 523,
+    "title": "Fall Guys",
+    "thumbnail": "https://www.freetogame.com/g/523/thumbnail.jpg",
+    "short_description": "Play the most competitive massively multiplayer party royale game.",
+    "genre": "Battle Royale",
+    "platform": "PC (Windows)",
+    "publisher": "Mediatonic",
+    "developer": "Mediatonic",
+    "release_date": "2020-08-04"
+  },
+  {
+    "id": 340,
+    "title": "Game Of Thrones Winter Is Coming",
+    "thumbnail": "https://www.freetogame.com/g/340/thumbnail.jpg",
+    "short_description": "A free-to-play browser-based RTS based on the George R.R. Martin novels.",
+    "genre": "Strategy",
+    "platform": "Web Browser",
+    "publisher": "GTArcade",
+    "developer": "YOOZOO Games",
+    "release_date": "2019-11-14"
+  },
+  {
+    "id": 2,
+    "title": "World of Tanks",
+    "thumbnail": "https://www.freetogame.com/g/2/thumbnail2.jpg",
+    "short_description": "If you like blowing up tanks, with a quick and intense game style you will love this game!",
+    "genre": "Shooter",
+    "platform": "PC (Windows)",
+    "publisher": "Wargaming",
+    "developer": "Wargaming",
+    "release_date": "2011-04-12"
+  }
+]
